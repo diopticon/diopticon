@@ -1,9 +1,0 @@
-version: '3.8'
-
-services:
-  diopticon:
-    build: .
-    ports:
-      - "8501:8501"
-    env_file:
-      - .env
